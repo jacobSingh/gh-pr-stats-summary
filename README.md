@@ -17,6 +17,6 @@ Here's how to make it work:
 1. ``` export GH_TOKEN="yourtoken" ```
 1. ./get_stats.sh ORGANIZATION -o /tmp/pr-stats # Where ORGANIZATION is your GitHub organization name.  This should generate one txt file per repo in /tmp/pr-stats.
 1. ./make_tsv.sh /tmp/pr-stats > /tmp/pr-stats.tsv
-1. Create a copy of this <a href="">Google sheet</a>
+1. Create a copy of this <a href="https://docs.google.com/spreadsheets/d/1uRS9McBRg_QU2sq5U5tg2zt6PreP59ipnsbSBwaReuk/edit?usp=sharing">Google sheet</a>
 1. Switch to the "source data" sheet.  File -> Import -> choose the /tmp/pr-stats.tsv file and replace the data.
 1. The Pivot table on the first sheet should now contain summary stats of the services in your organization.  
